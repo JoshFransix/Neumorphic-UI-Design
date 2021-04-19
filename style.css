@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #ecf0f3;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: rotateZ(-5deg);
+}
+
+.glow {
+  cursor: pointer;
+  box-shadow: inset -3px -3px 7px #fff, inset 3px 3px 5px #cecece;
+  border-radius: 20%;
+  padding: 20px 30px;
+  transition: all 1000ms;
+}
+
+i {
+  font-size: 4rem;
+}
+
+.gloww {
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #cecece;
+  border-radius: 20%;
+  padding: 20px 30px;
+}
+
+/* .glow:hover {
+  box-shadow: inset -3px -3px 7px #fff, inset 3px 3px 5px #cecece;
+  transition: all 1000ms;
+} */
+
+.facebook i {
+  background: #3b5998;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.whatsapp i {
+  background: #25d366;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.instagram i {
+  background: linear-gradient(#e97639, #cf2460);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.youtube i {
+  background: #cd201f;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.twitch i {
+  background: #6441a4;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
